@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Del NDT Services | Non-Destructive Testing Melbourne</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; color: #333; }
+        
+        /* Navigation */
+        nav { background: #1a1a2e; padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; }
+        .logo { color: #fff; font-size: 1.5rem; font-weight: 700; letter-spacing: 1px; }
+        .logo span { color: #f0a500; }
+        nav ul { display: flex; list-style: none; gap: 2rem; }
+        nav a { color: #ccc; text-decoration: none; font-size: 0.95rem; transition: color 0.2s; }
+        nav a:hover { color: #f0a500; }
+        .cta-btn { background: #f0a500; color: #1a1a2e; padding: 0.6rem 1.5rem; border-radius: 4px; font-weight: 600; text-decoration: none; }
+
+        /* Hero */
+        .hero { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 6rem 5% 5rem; text-align: center; }
+        .hero h1 { font-size: 2.8rem; margin-bottom: 1rem; line-height: 1.2; }
+        .hero h1 span { color: #f0a500; }
+        .hero p { font-size: 1.2rem; color: #aaa; max-width: 700px; margin: 0 auto 2rem; }
+        .hero-stats { display: flex; justify-content: center; gap: 4rem; margin-top: 3rem; flex-wrap: wrap; }
+        .stat-item h3 { font-size: 2rem; color: #f0a500; }
+        .stat-item p { font-size: 0.9rem; color: #888; }
+
+        /* Services */
+        .section { padding: 5rem 5%; }
+        .section-title { text-align: center; font-size: 2rem; margin-bottom: 0.5rem; color: #1a1a2e; }
+        .section-sub { text-align: center; color: #777; margin-bottom: 3rem; }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; max-width: 1200px; margin: 0 auto; }
+        .service-card { background: #f8f9fa; padding: 2rem; border-radius: 8px; border-left: 4px solid #f0a500; transition: transform 0.2s, box-shadow 0.2s; }
+        .service-card:hover { transform: translateY(-4px); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
+        .service-card h3 { margin-bottom: 0.5rem; color: #1a1a2e; font-size: 1.1rem; }
+        .service-card p { font-size: 0.9rem; color: #666; }
+
+        /* Why Us */
+        .why-us { background: #1a1a2e; color: #fff; padding: 5rem 5%; }
+        .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 2rem; max-width: 1100px; margin: 2rem auto 0; }
+        .why-item { text-align: center; padding: 1.5rem; }
+        .why-item .icon { font-size: 2.5rem; margin-bottom: 1rem; }
+        .why-item h4 { color: #f0a500; margin-bottom: 0.5rem; }
+        .why-item p { font-size: 0.9rem; color: #aaa; }
+
+        /* Contact / Footer */
+        footer { background: #0f0f1a; color: #888; padding: 3rem 5%; text-align: center; }
+        .contact-info { display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; margin-bottom: 2rem; }
+        .contact-info div { color: #ccc; }
+        .contact-info strong { color: #f0a500; display: block; margin-bottom: 0.3rem; }
+        .footer-copy { border-top: 1px solid #222; padding-top: 1.5rem; font-size: 0.85rem; }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 1.8rem; }
+            nav ul { display: none; }
+            .hero-stats { gap: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="logo">DEL <span>NDT</span></div>
+    <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="cta-btn">Get a Quote</a>
+</nav>
+
+<section class="hero">
+    <h1>Precision in Every Inspection<br><span>Non-Destructive Testing You Can Trust</span></h1>
+    <p>Certified NDT and inspection services for welding, pressure equipment, structural steel and pipelines. Mobile across Melbourne and Victoria.</p>
+    <a href="#contact" class="cta-btn" style="display:inline-block; margin-top:1rem;">Request a Quote</a>
+    
+    <div class="hero-stats">
+        <div class="stat-item">
+            <h3>24–72h</h3>
+            <p>Report Turnaround</p>
+        </div>
+        <div class="stat-item">
+            <h3>AINDT / ASNT</h3>
+            <p>Certified Technicians</p>
+        </div>
+        <div class="stat-item">
+            <h3>AS/ISO</h3>
+            <p>Standards Compliant</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="services">
+    <h2 class="section-title">Our Services</h2>
+    <p class="section-sub">Comprehensive non-destructive testing solutions</p>
+    <div class="services-grid">
+        <div class="service-card"><h3>Visual Inspection (VT)</h3><p>Surface quality assessment and visible defect identification.</p></div>
+        <div class="service-card"><h3>Ultrasonic Testing (UT)</h3><p>Internal flaw detection in welds and materials.</p></div>
+        <div class="service-card"><h3>Magnetic Particle (MT)</h3><p>Surface and near-surface defect detection in ferromagnetic materials.</p></div>
+        <div class="service-card"><h3>Dye Penetrant (PT)</h3><p>Fine surface crack detection for non-porous materials. Compliant with AS 2062, ASTM E165, ISO 3452.</p></div>
+        <div class="service-card"><h3>Eddy Current Testing</h3><p>Precise detection for tubing and conductive components.</p></div>
+        <div class="service-card"><h3>Welding Inspection</h3><p>Comprehensive weld quality assessments to AS/ISO standards.</p></div>
+        <div class="service-card"><h3>PQR / WPS / Welder Qualification</h3><p>Complete welding procedure documentation and certification support.</p></div>
+        <div class="service-card"><h3>Pressure Vessel Inspection</h3><p>Safety and integrity verification for pressure equipment.</p></div>
+        <div class="service-card"><h3>QA/QC Services</h3><p>Quality assurance and control programs ensuring compliance from start to finish.</p></div>
+    </div>
+</section>
+
+<section class="why-us" id="why">
+    <h2 class="section-title" style="color:#fff;">Why Choose Del NDT</h2>
+    <div class="why-grid">
+        <div class="why-item">
+            <div class="icon">✓</div>
+            <h4>Certified Inspectors</h4>
+            <p>AINDT, ASNT qualified technicians with proven expertise.</p>
+        </div>
+        <div class="why-item">
+            <div class="icon">⚡</div>
+            <h4>Fast Reporting</h4>
+            <p>Clear reports delivered within 24–72 hours depending on scope.</p>
+        </div>
+        <div class="why-item">
+            <div class="icon">🔧</div>
+            <h4>Mobile Service</h4>
+            <p>On-site testing across Melbourne and Victoria.</p>
+        </div>
+        <div class="why-item">
+            <div class="icon">📋</div>
+            <h4>Standards Compliant</h4>
+            <p>Work aligned with AS/ISO standards for full compliance assurance.</p>
+        </div>
+    </div>
+</section>
+
+<footer id="contact">
+    <div class="contact-info">
+        <div><strong>Phone</strong>0409 473 457</div>
+        <div><strong>Email</strong>admin@delndt.com.au</div>
+        <div><strong>Location</strong>Melbourne, VIC – Mobile across Australia</div>
+        <div><strong>Hours</strong>Mon–Fri 8:00 AM – 5:00 PM</div>
+    </div>
+    <p class="footer-copy">© 2026 Del NDT Services. Precision in every inspection.</p>
+</footer>
+
+</body>
+</html>
